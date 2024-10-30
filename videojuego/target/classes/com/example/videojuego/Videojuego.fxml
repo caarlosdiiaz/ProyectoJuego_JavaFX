@@ -1,0 +1,207 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane fx:id="panelfondo" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="866.0" prefWidth="866.0" xmlns="http://javafx.com/javafx/23" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.videojuego.VideojuegoController">
+   <children>
+      <ImageView fx:id="fondo" fitHeight="866.0" fitWidth="866.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@fondo1.jpeg" />
+         </image>
+      </ImageView>
+      <AnchorPane layoutX="79.0" layoutY="240.0" prefHeight="212.0" prefWidth="212.0" style="-fx-background-color: black;">
+         <children>
+            <ImageView fx:id="imagenyo" fitHeight="191.0" fitWidth="202.0" layoutX="11.0" layoutY="11.0" pickOnBounds="true" preserveRatio="true" />
+         </children>
+      </AnchorPane>
+      <AnchorPane layoutX="543.0" layoutY="240.0" prefHeight="212.0" prefWidth="206.0" style="-fx-background-color: black;">
+         <children>
+            <ImageView fx:id="imagenotro" fitHeight="191.0" fitWidth="229.0" layoutX="8.0" layoutY="11.0" pickOnBounds="true" preserveRatio="true" />
+         </children>
+      </AnchorPane>
+      <ImageView fx:id="dado" fitHeight="150.0" fitWidth="200.0" layoutX="79.0" layoutY="74.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@dado.jpeg" />
+         </image>
+      </ImageView>
+      <Label fx:id="nombreyo" layoutX="104.0" layoutY="187.0" prefHeight="47.0" prefWidth="164.0" text="Personaje" textFill="WHITE">
+         <font>
+            <Font name="Impact" size="32.0" />
+         </font>
+      </Label>
+      <Label fx:id="nombreotro" layoutX="589.0" layoutY="191.0" text="Personaje" textFill="WHITE">
+         <font>
+            <Font name="Impact" size="32.0" />
+         </font>
+      </Label>
+      <Label layoutX="79.0" layoutY="482.0" prefHeight="40.0" prefWidth="96.0" text="Fuerza" textFill="WHITE">
+         <font>
+            <Font name="System Bold" size="24.0" />
+         </font>
+      </Label>
+      <Label layoutX="79.0" layoutY="542.0" prefHeight="40.0" prefWidth="126.0" text="Destreza" textFill="WHITE">
+         <font>
+            <Font name="System Bold" size="24.0" />
+         </font>
+      </Label>
+      <Label layoutX="79.0" layoutY="609.0" prefHeight="40.0" prefWidth="96.0" text="Suerte" textFill="WHITE">
+         <font>
+            <Font name="System Bold" size="24.0" />
+         </font>
+      </Label>
+      <Label layoutX="541.0" layoutY="475.0" prefHeight="40.0" prefWidth="96.0" text="Fuerza" textFill="WHITE">
+         <font>
+            <Font name="System Bold" size="24.0" />
+         </font>
+      </Label>
+      <Label layoutX="541.0" layoutY="535.0" prefHeight="40.0" prefWidth="126.0" text="Destreza" textFill="WHITE">
+         <font>
+            <Font name="System Bold" size="24.0" />
+         </font>
+      </Label>
+      <Label layoutX="541.0" layoutY="602.0" prefHeight="40.0" prefWidth="96.0" text="Suerte" textFill="WHITE">
+         <font>
+            <Font name="System Bold" size="24.0" />
+         </font>
+      </Label>
+      <Pane fx:id="panelimagenes" layoutX="251.0" pickOnBounds="false" prefHeight="80.0" prefWidth="365.0" style="-fx-background-color: black;">
+         <children>
+            <ImageView fx:id="seleccionaragua" fitHeight="78.0" fitWidth="84.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@1.jpeg" />
+               </image>
+            </ImageView>
+            <ImageView fx:id="seleccionardragon" fitHeight="78.0" fitWidth="83.0" layoutX="96.0" layoutY="1.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@2.jpeg" />
+               </image>
+            </ImageView>
+            <ImageView fx:id="seleccionarfuego" fitHeight="78.0" fitWidth="83.0" layoutX="191.0" layoutY="1.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@3.jpeg" />
+               </image>
+            </ImageView>
+            <ImageView fx:id="seleccionarveneno" fitHeight="78.0" fitWidth="83.0" layoutX="285.0" layoutY="1.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@4.jpeg" />
+               </image>
+            </ImageView>
+         </children>
+      </Pane>
+      <Label fx:id="fuerzayo" layoutX="231.0" layoutY="482.0" prefHeight="40.0" prefWidth="90.0" text="-" textFill="WHITE">
+         <font>
+            <Font name="System Italic" size="24.0" />
+         </font>
+      </Label>
+      <Label fx:id="destrezayo" layoutX="231.0" layoutY="542.0" prefHeight="40.0" prefWidth="90.0" text="-" textFill="WHITE">
+         <font>
+            <Font name="System Italic" size="24.0" />
+         </font>
+      </Label>
+      <Label fx:id="suerteyo" layoutX="231.0" layoutY="609.0" prefHeight="40.0" prefWidth="90.0" text="-" textFill="WHITE">
+         <font>
+            <Font name="System Italic" size="24.0" />
+         </font>
+      </Label>
+      <Label fx:id="fuerzaotro" layoutX="694.0" layoutY="475.0" prefHeight="40.0" prefWidth="90.0" text="-" textFill="WHITE">
+         <font>
+            <Font name="System Italic" size="24.0" />
+         </font>
+      </Label>
+      <Label fx:id="destrezaotro" layoutX="694.0" layoutY="535.0" prefHeight="40.0" prefWidth="90.0" text="-" textFill="WHITE">
+         <font>
+            <Font name="System Italic" size="24.0" />
+         </font>
+      </Label>
+      <Label fx:id="suerteotro" layoutX="692.0" layoutY="602.0" prefHeight="40.0" prefWidth="90.0" text="-" textFill="WHITE">
+         <font>
+            <Font name="System Italic" size="24.0" />
+         </font>
+      </Label>
+      <Label layoutX="826.0" prefHeight="47.0" prefWidth="41.0" scaleShape="false" style="-fx-background-color: grey;" text=" X" textAlignment="CENTER" textFill="RED" fx:id="xsalir">
+         <font>
+            <Font size="31.0" />
+         </font>
+      </Label>
+      <Label fx:id="labelPelea" layoutX="61.0" layoutY="693.0" prefHeight="84.0" prefWidth="141.0" style="-fx-alignment: center;" text="Pelea" textFill="#00ff05">
+         <font>
+            <Font size="51.0" />
+         </font>
+      </Label>
+      <Label fx:id="resolucion" layoutX="265.0" layoutY="695.0" prefHeight="80.0" prefWidth="265.0" style="-fx-alignment: center;" text="Resolucion" textFill="#00ff05">
+         <font>
+            <Font size="48.0" />
+         </font>
+      </Label>
+      <Label fx:id="reiniciar" layoutX="585.0" layoutY="693.0" prefHeight="84.0" prefWidth="213.0" style="-fx-alignment: center;" text="Reiniciar" textFill="#00ff05">
+         <font>
+            <Font size="47.0" />
+         </font>
+      </Label>
+      <Label fx:id="tipopelea" layoutX="194.0" layoutY="4.0" text="-" textFill="WHITE">
+         <font>
+            <Font size="60.0" />
+         </font>
+      </Label>
+      <ImageView fx:id="corazonyo1" fitHeight="47.0" fitWidth="50.0" layoutX="14.0" layoutY="241.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@corazones.jpeg" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="corazonyo2" fitHeight="47.0" fitWidth="50.0" layoutX="14.0" layoutY="321.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@corazones.jpeg" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="corazonyo3" fitHeight="47.0" fitWidth="50.0" layoutX="14.0" layoutY="403.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@corazones.jpeg" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="corazonotro1" fitHeight="47.0" fitWidth="50.0" layoutX="795.0" layoutY="242.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@corazones.jpeg" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="corazonotro2" fitHeight="47.0" fitWidth="50.0" layoutX="795.0" layoutY="322.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@corazones.jpeg" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="corazonotro3" fitHeight="47.0" fitWidth="50.0" layoutX="795.0" layoutY="404.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@corazones.jpeg" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="dado1" fitHeight="150.0" fitWidth="200.0" layoutX="543.0" layoutY="74.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@dado.jpeg" />
+         </image>
+      </ImageView>
+      <Label fx:id="numeroyo" layoutX="231.0" layoutY="129.0" prefHeight="40.0" prefWidth="90.0" text="." textFill="WHITE">
+         <font>
+            <Font name="System Italic" size="24.0" />
+         </font>
+      </Label>
+      <Label fx:id="numerootro" layoutX="678.0" layoutY="129.0" prefHeight="40.0" prefWidth="90.0" text="." textFill="WHITE">
+         <font>
+            <Font name="System Italic" size="24.0" />
+         </font>
+      </Label>
+      <ImageView fx:id="gif1" fitHeight="78.0" fitWidth="78.0" layoutX="745.0" layoutY="53.0" nodeOrientation="RIGHT_TO_LEFT" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@flecha.gif" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="gif2" fitHeight="78.0" fitWidth="78.0" layoutX="541.0" layoutY="760.0" nodeOrientation="RIGHT_TO_LEFT" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@flecha.gif" />
+         </image>
+      </ImageView>
+   </children>
+</AnchorPane>
